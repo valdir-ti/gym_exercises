@@ -46,6 +46,10 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
             <img
               src={item.video.thumbnails[0].url}
               alt={item.video.title}
+              style={{
+                width: "387px",
+                height: "220px",
+              }}
             />
             <Box>
               <Typography
