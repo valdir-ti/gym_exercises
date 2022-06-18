@@ -5,8 +5,6 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
 
   if(!exerciseVideos) return 'Loading...'
 
-  console.log(exerciseVideos)
-
   return (
     <Box
       sx={{
