@@ -1,6 +1,9 @@
-import {fetchData, exerciseOptions} from './fetchData'
+import {fetchData, exerciseOptions, youtubeOptions} from './fetchData'
+import { capitalizeFirstLetter } from './capitalizeFirstLetter'
 
 export {
     fetchData,
-    exerciseOptions
+    exerciseOptions,
+    youtubeOptions,
+    capitalizeFirstLetter
 }
