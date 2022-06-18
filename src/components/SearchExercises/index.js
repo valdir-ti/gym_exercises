@@ -8,7 +8,7 @@ import { fetchData, exerciseOptions } from '../../utils'
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
 
   const [search, setSearch] = useState('')
- 
+
   const [bodyParts, setBodyParts] = useState([])
 
   useEffect(() => {
@@ -114,7 +114,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           padding: '20px',
         }}
       >
-        <HorizontalScrollBar 
+        <HorizontalScrollBar
           data={bodyParts}
           bodyPart={bodyPart}
           setBodyPart={setBodyPart}
